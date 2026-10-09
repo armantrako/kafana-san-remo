@@ -1,0 +1,1663 @@
+<!DOCTYPE html>
+<html lang="bs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kafana San Remo Sarajevo | Lud, zbunjen, normalan</title>
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Dobrodošli u Kafanu San Remo u Sarajevu — kultno mjesto iz serije 'Lud, zbunjen, normalan'. Domaća sarma, sogan-dolma, japrak, hladno točeno Sarajevsko pivo, ljekovita Maksuzija i svirka Izeta Fazlinovića petkom!">
+  <meta name="keywords" content="San Remo, Sar Remo, Kafana San Remo, Lud zbunjen normalan, Izet Fazlinovic, Faruk Fazlinovic, Marija San Remo, sarma, sogan dolma, japrak, sarajevsko pivo, Sarajevo, kafana">
+  <meta name="author" content="Trako Webdesigner - TrakoArman">
+  <meta name="theme-color" content="#18110e">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://kafana-san-remo.vercel.app">
+  <meta property="og:title" content="Kafana San Remo Sarajevo | Druga kuća porodice Fazlinović">
+  <meta property="og:description" content="Autentična sarajevska kafana iz kultne serije LZN. Tradicionalni meni, točeno pivo, Izetov rokenrol petkom i Marijin kućni red!">
+  <meta property="og:image" content="images/hero_trio_sank.jpg">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:title" content="Kafana San Remo Sarajevo | Lud, zbunjen, normalan">
+  <meta property="twitter:description" content="Kultno okupljalište Fazlinovića i raje preko puta studija Akord.">
+  <meta property="twitter:image" content="images/hero_trio_sank.jpg">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍺</text></svg>">
+
+  <!-- Google Fonts: Playfair Display, Cinzel, Plus Jakarta Sans, Caveat for Neon cursive -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Cinzel:wght@600;700;800;900&family=Playfair+Display:ital,wght@0,500;0,700;0,800;1,400&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-dark">
+
+  <!-- Ambient background glow elements -->
+  <div class="ambient-glow ambient-glow-1" aria-hidden="true"></div>
+  <div class="ambient-glow ambient-glow-2" aria-hidden="true"></div>
+  <div class="cursor-glow" id="cursorGlow" aria-hidden="true"></div>
+
+  <!-- TOP ANNOUNCEMENT TICKER -->
+  <aside class="top-ticker" aria-label="Kafanske obavijesti">
+    <div class="ticker-track">
+      <span class="ticker-item"><span class="badge-dot pulse-green"></span> <strong>MARIJA JE ZA ŠANKOM:</strong> Otvoreno svakog dana · Veresija ukinuta do daljnjeg!</span>
+      <span class="ticker-divider">•</span>
+      <span class="ticker-item">🎸 <strong>SPECIJALNI PROGRAM:</strong> Svakog petka od 20:00 – Izet Fazlinović uživo sa mikrofonom!</span>
+      <span class="ticker-divider">•</span>
+      <span class="ticker-item">🍲 <strong>NA MENIJU DANAS:</strong> Domaća sarma u zemljanoj posudi i sogan-dolma!</span>
+      <span class="ticker-divider">•</span>
+      <span class="ticker-item">🍺 <strong>SARAJEVSKO PIVO:</strong> Hladno k'o led direktno sa keramičkog točionika!</span>
+      <span class="ticker-divider">•</span>
+      <span class="ticker-item">📍 <strong>LOKACIJA:</strong> Prekoputa studija „Akord” i haustora Fazlinovića!</span>
+    </div>
+  </aside>
+
+  <!-- NAVIGATION HEADER -->
+  <header class="site-header" id="header">
+    <div class="header-inner container">
+      
+      <!-- LOGO WITH NEON EFFECT -->
+      <a href="#pocetna" class="brand-logo" aria-label="Kafana San Remo Početna">
+        <span class="neon-sign-wood">
+          <span class="neon-text-red">San Remo</span>
+        </span>
+        <span class="brand-subtitle">KAFANA &middot; SARAJEVO &middot; EST. 2007</span>
+      </a>
+
+      <!-- DESKTOP NAV -->
+      <nav class="desktop-nav" aria-label="Glavna navigacija">
+        <ul class="nav-list">
+          <li><a href="#pocetna" class="nav-link active">Početna</a></li>
+          <li><a href="#o-kafani" class="nav-link">O Nama</a></li>
+          <li><a href="#jelovnik" class="nav-link">Jelovnik</a></li>
+          <li><a href="#pica" class="nav-link">Karta Pića</a></li>
+          <li><a href="#petak" class="nav-link highlight-link">Muzika Petkom</a></li>
+          <li><a href="#gosti" class="nav-link">Stalni Gosti</a></li>
+          <li><a href="#kucni-red" class="nav-link">Kućni Red</a></li>
+          <li><a href="#galerija" class="nav-link">Galerija</a></li>
+          <li><a href="#kalkulator" class="nav-link">Ceh</a></li>
+          <li><a href="#kontakt" class="nav-link">Kontakt</a></li>
+        </ul>
+      </nav>
+
+      <!-- HEADER ACTIONS -->
+      <div class="header-actions">
+        <!-- Sound Ambience Toggle -->
+        <button id="soundToggleBtn" class="action-btn sound-btn" title="Uključi/isključi kafanski ambijent" aria-label="Kafanski zvuk">
+          <span class="sound-icon">🎵</span>
+          <span class="sound-text">Kafanski Zvuk</span>
+        </button>
+
+        <!-- WhatsApp Quick Contact -->
+        <a href="https://wa.me/38761248690" target="_blank" rel="noopener noreferrer" class="action-btn cta-header-btn" title="Trako Webdesigner WhatsApp">
+          <span class="wa-icon">💬</span>
+          <span>WhatsApp</span>
+        </a>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Otvori navigaciju" aria-expanded="false">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- MOBILE NAVIGATION DRAWER -->
+  <div class="mobile-drawer" id="mobileDrawer" aria-hidden="true">
+    <div class="drawer-backdrop" id="drawerBackdrop"></div>
+    <div class="drawer-content">
+      <div class="drawer-header">
+        <div class="neon-text-red neon-small">San Remo</div>
+        <button class="drawer-close-btn" id="drawerCloseBtn" aria-label="Zatvori meni">&times;</button>
+      </div>
+      <nav class="drawer-nav">
+        <ul>
+          <li><a href="#pocetna" class="drawer-link">Početna</a></li>
+          <li><a href="#o-kafani" class="drawer-link">O Kafani San Remo</a></li>
+          <li><a href="#jelovnik" class="drawer-link">Jelovnik (Hrana)</a></li>
+          <li><a href="#pica" class="drawer-link">Karta Pića</a></li>
+          <li><a href="#petak" class="drawer-link drawer-highlight">🎸 Muzika Petkom (Izet Uživo)</a></li>
+          <li><a href="#gosti" class="drawer-link">Stalni Gosti (Inventar)</a></li>
+          <li><a href="#kucni-red" class="drawer-link">Kućni Red Kafane</a></li>
+          <li><a href="#galerija" class="drawer-link">Galerija Fotografija</a></li>
+          <li><a href="#kalkulator" class="drawer-link">Kalkulator Ceha</a></li>
+          <li><a href="#kontakt" class="drawer-link">Lokacija & Kontakt</a></li>
+        </ul>
+      </nav>
+      <div class="drawer-footer">
+        <p class="drawer-status"><span class="badge-dot pulse-green"></span> Marija je za šankom</p>
+        <a href="https://wa.me/38761248690" class="btn btn-primary w-full" target="_blank" rel="noopener">WhatsApp: +387 61 248 690</a>
+      </div>
+    </div>
+  </div>
+
+  <main id="mainContent">
+
+    <!-- HERO SECTION -->
+    <section class="hero-section" id="pocetna">
+      <div class="hero-backdrop-pattern"></div>
+      
+      <div class="container hero-container">
+        
+        <div class="hero-content">
+          
+          <div class="hero-badge">
+            <span class="badge-dot pulse-red"></span>
+            <span>KULTNA SARAJEVSKA KAFANA &middot; LUD, ZBUNJEN, NORMALAN</span>
+          </div>
+
+          <h1 class="hero-title">
+            Kafana <br>
+            <span class="neon-title-wrapper">
+              <span class="neon-text-red neon-large">San Remo</span>
+              <span class="neon-text-green neon-sarajevsko">Sarajevsko</span>
+            </span>
+          </h1>
+
+          <p class="hero-lead">
+            Druga kuća porodice Fazlinović. Mjesto gdje se kafa pije s nogu, hladno pivo raspravlja u promilima, poslovi stoljeća sklapaju bez pokrića, a <strong>gost nikad nije u pravu</strong> ako pita Mariju.
+          </p>
+
+          <!-- LIVE FRIDAY EVENT TEASER CARD -->
+          <div class="hero-event-card">
+            <div class="event-thumb">
+              <img src="images/muzika_izet_roker.jpg" alt="Izet Fazlinović u kožnoj jakni pjeva rokenrol" class="event-img" loading="eager">
+              <span class="event-live-pill"><span class="badge-dot pulse-red"></span> UŽIVO PETKOM</span>
+            </div>
+            <div class="event-info">
+              <div class="event-time">Svakog petka od 20:00 do fajronta</div>
+              <h3 class="event-title">Drug Izet Fazlinović & Rokenrol Večer</h3>
+              <p class="event-desc">Partizanske koračnice, rok balade i pjesme za koje niko drugi ne zna tekst do kraja!</p>
+            </div>
+          </div>
+
+          <!-- HERO CTA BUTTONS -->
+          <div class="hero-ctas">
+            <a href="#jelovnik" class="btn btn-primary">
+              <span class="btn-icon">🍲</span>
+              <span>Pogledaj Jelovnik</span>
+            </a>
+            <a href="#petak" class="btn btn-secondary">
+              <span class="btn-icon">🎸</span>
+              <span>Svirka Petkom</span>
+            </a>
+            <a href="#kucni-red" class="btn btn-outline">
+              <span class="btn-icon">📜</span>
+              <span>Kućni Red</span>
+            </a>
+          </div>
+
+          <!-- KAFANSKE STATISTIKE / METRIKE -->
+          <div class="hero-stats">
+            <div class="stat-item">
+              <div class="stat-value">40+</div>
+              <div class="stat-label">Godina tradicije</div>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+              <div class="stat-value">0 KM</div>
+              <div class="stat-label">Odobrenog duga</div>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+              <div class="stat-value">100%</div>
+              <div class="stat-label">Hladno točeno pivo</div>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+              <div class="stat-value">1</div>
+              <div class="stat-label">Gazdarica bez milosti</div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- HERO VISUAL / CINEMATIC PHOTOGRAPHY -->
+        <div class="hero-visual">
+          <div class="visual-frame">
+            <div class="visual-glow-halo"></div>
+            <img src="images/hero_trio_sank.jpg" alt="Faruk, Čombe i Izet Fazlinović za šankom kafane San Remo sa keramičkim točionikom Sarajevsko Pivo" class="hero-main-img" loading="eager">
+            
+            <div class="visual-caption-glass">
+              <div class="caption-icon">🍺</div>
+              <div class="caption-body">
+                <span class="caption-title">Kafanski trio za šankom</span>
+                <span class="caption-sub">Faruk, Čombe i Izet uz originalni keramički točionik i mesingani telefon.</span>
+              </div>
+              <span class="caption-tag">Scena iz lokala</span>
+            </div>
+
+            <!-- Floating Neon Badge -->
+            <div class="floating-neon-badge">
+              <span class="mini-neon">San Remo</span>
+              <span class="mini-status">Otvoreno</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="hero-bottom-curve"></div>
+    </section>
+
+    <!-- O KAFANI (THE STORY OF SAN REMO) -->
+    <section class="section about-section" id="o-kafani">
+      <div class="container">
+        
+        <div class="section-header text-center">
+          <span class="section-eyebrow">ISTORIJA & ATMOSFERA</span>
+          <h2 class="section-title">Priča o Kafani San Remo</h2>
+          <div class="title-ornament"><span>✦</span></div>
+          <p class="section-subtitle">
+            Prekoputa studija „Akord” i stana porodice Fazlinović — diplomatsko sjedište mahalskih poslova, propalih muzičkih hitova i besplatne sarme.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          
+          <!-- Story Left: Visual Mosaic -->
+          <div class="about-mosaic">
+            <div class="mosaic-card mosaic-primary">
+              <img src="images/samir_i_marija_dil.jpg" alt="Samir Fazlinović i Marija za stolom pod neonskim znakom San Remo" loading="lazy">
+              <div class="mosaic-overlay">
+                <span class="mosaic-label">Pregovori pod neonom</span>
+                <span class="mosaic-text">Samir sklapa „posao stoljeća”, a Marija traži pare unaprijed.</span>
+              </div>
+            </div>
+            
+            <div class="mosaic-sub-grid">
+              <div class="mosaic-card mosaic-secondary">
+                <img src="images/zgrada_akord_eksterijer.png" alt="Zgrada, žuta buba i ulaz u produkciju Akord" loading="lazy">
+                <div class="mosaic-overlay">
+                  <span class="mosaic-label">Lokacija preko puta</span>
+                  <span class="mosaic-text">Studio Akord i legendarna žuta Buba.</span>
+                </div>
+              </div>
+              <div class="mosaic-card mosaic-secondary">
+                <img src="images/marija_i_gosti_sank.jpg" alt="Marija Mrvica, Faruk i Čombe za pultom" loading="lazy">
+                <div class="mosaic-overlay">
+                  <span class="mosaic-label">Red za šankom</span>
+                  <span class="mosaic-text">Marija drži red, a krigle čekaju.</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Story Right: Text Narrative -->
+          <div class="about-text-content">
+            
+            <div class="story-block">
+              <div class="story-icon">🏛️</div>
+              <div class="story-body">
+                <h3>Druga dnevna soba Fazlinovića</h3>
+                <p>
+                  San Remo nije tipična sarajevska kafana u kojoj gosti tiho sjede i čitaju novine. Ovo je produžetak haustora Fazlinovića — mjesto gdje Izet bježi od kućnih poslova, gdje Faruk traži inspiraciju za nepostojeće hitove, a Damir uzaludno pokušava učiti medicinu dok oko njega sijevaju rasprave o politici i fudbalu.
+                </p>
+              </div>
+            </div>
+
+            <div class="story-block">
+              <div class="story-icon">💡</div>
+              <div class="story-body">
+                <h3>Misterija imena: San Remo ili Sar Remo?</h3>
+                <p>
+                  Na crvenom zidu od fasadne cigle ponosno sija neonski natpis u drvenom ramu. Zbog specifičnog krasopisa i sarajevskog žargona, generacije posjetilaca i gledalaca raspravljaju piše li <em>San Remo</em> ili <em>Sar Remo</em>. Vlasnici kažu jedno, stalni gosti drugo, a neonski sjaj nastavlja svijetliti isto već decenijama.
+                </p>
+              </div>
+            </div>
+
+            <div class="story-block">
+              <div class="story-icon">👑</div>
+              <div class="story-body">
+                <h3>Marijin zakon: Gost NIKAD nije u pravu!</h3>
+                <p>
+                  Lokal vode Marija Mrvica i Stjepan, ali stvarna i apsolutna vlast pripada Mariji. Zaboravite na zapadnjačke teorije o uslužnosti: ako je pivo mlako — sporo piješ; ako je kafa prekratka — naruči duplu; ako nemaš sitno — ne prilazi šanku. Upravo ta sirova iskrenost čini San Remo najomiljenijim mjestom u gradu.
+                </p>
+              </div>
+            </div>
+
+            <!-- Authentic Details Pill Bar -->
+            <div class="authentic-pillars">
+              <div class="pillar-chip">
+                <span class="chip-icon">🍺</span>
+                <span>Keramički točionik</span>
+              </div>
+              <div class="pillar-chip">
+                <span class="chip-icon">☎️</span>
+                <span>Mesingani telefon</span>
+              </div>
+              <div class="pillar-chip">
+                <span class="chip-icon">🧱</span>
+                <span>Crvena fasadna cigla</span>
+              </div>
+              <div class="pillar-chip">
+                <span class="chip-icon">🎰</span>
+                <span>Poker aparat u uglu</span>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- FULL FOOD MENU (JELOVNIK) -->
+    <section class="section menu-section" id="jelovnik">
+      <div class="container">
+        
+        <div class="section-header text-center">
+          <span class="section-eyebrow">DOMAĆA KUHINJA &middot; PROVJERENI RECEPTI</span>
+          <h2 class="section-title">Jelovnik Kafane San Remo</h2>
+          <div class="title-ornament"><span>✦</span></div>
+          <p class="section-subtitle">
+            Sva jela potvrđena u dijalozima serije i epizodama! Pažljivo pripremljena domaća kuhinja, bez lažnih kulinarskih fraza i bez veresije.
+          </p>
+        </div>
+
+        <!-- Menu Filter Buttons -->
+        <div class="menu-filter-bar">
+          <button class="filter-btn active" data-filter="all">Sva Jela</button>
+          <button class="filter-btn" data-filter="dolme">Kuhana Jela & Dolme</button>
+          <button class="filter-btn" data-filter="specijaliteti">Specijaliteti Kuće</button>
+          <button class="filter-btn" data-filter="pecenje">Sa Ražnja & Ovala</button>
+        </div>
+
+        <!-- Food Grid -->
+        <div class="menu-grid" id="foodMenuGrid">
+          
+          <!-- ITEM 1: SARMA -->
+          <article class="menu-card" data-category="dolme" data-item="sarma">
+            <div class="menu-card-img-wrap">
+              <img src="images/hrana_sarma.jpg" alt="Domaća sarma u zemljanoj posudi sa suhim mesom" class="menu-card-img" loading="lazy">
+              <span class="menu-tag tag-gold">Izetov Favorit</span>
+              <span class="menu-tag-status">Potvrđeno u dijalogu</span>
+            </div>
+            <div class="menu-card-body">
+              <div class="menu-card-header">
+                <h3 class="dish-title">Sarma u Zemljanoj Posudi</h3>
+                <span class="dish-price">12.00 KM</span>
+              </div>
+              <p class="dish-desc">
+                Rukom motani listovi domaćeg kiselog kupusa, filovani probranim junećim mesom i rižom, satima tiho krčkani sa komadima suhog dimljenog mesa u glinenoj tepsiji.
+              </p>
+              <div class="lzn-humor-quote">
+                <span class="quote-icon">❝</span>
+                <span>Dokazano vraća sluh Izetu Fazlinoviću — naročito onog sekunda kad Marija spomene da je sarma džabe!</span>
+              </div>
+              <div class="menu-card-footer">
+                <span class="ingredient-info">Kiseli kupus &middot; Junetina &middot; Suho meso</span>
+                <button class="btn-add-ceh" onclick="addToReceipt('Sarma u zemljanoj posudi', 12.00)" title="Dodaj na račun">
+                  <span>+ Na Račun</span>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- ITEM 2: SOGAN-DOLMA -->
+          <article class="menu-card" data-category="dolme" data-item="sogan-dolma">
+            <div class="menu-card-img-wrap">
+              <img src="images/hrana_sogan_dolma.jpg" alt="Sogan-dolma na bijelom tanjiru sa crvenim saftom i limunom" class="menu-card-img" loading="lazy">
+              <span class="menu-tag tag-primary">Sarajevski Klasik</span>
+              <span class="menu-tag-status">Potvrđeno u dijalogu</span>
+            </div>
+            <div class="menu-card-body">
+              <div class="menu-card-header">
+                <h3 class="dish-title">Sogan-Dolma na Tradicionalni Način</h3>
+                <span class="dish-price">13.00 KM</span>
+              </div>
+              <p class="dish-desc">
+                Pažljivo oparene i oguljene glavice slatkog luka, filovane začinjenim mljevenim mesom i pirinčem, dinstane u blagom crvenom saftu sa kiselom pavlakom i limunom.
+              </p>
+              <div class="lzn-humor-quote">
+                <span class="quote-icon">❝</span>
+                <span>Glavno jelo na spisku narudžbi koje likovi izričito nabrajaju. Jede se polako dok se raspravlja ko plaća ceh.</span>
+              </div>
+              <div class="menu-card-footer">
+                <span class="ingredient-info">Lukovice &middot; Mljeveno meso &middot; Limun</span>
+                <button class="btn-add-ceh" onclick="addToReceipt('Sogan-dolma', 13.00)" title="Dodaj na račun">
+                  <span>+ Na Račun</span>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- ITEM 3: JAPRAK -->
+          <article class="menu-card" data-category="dolme" data-item="japrak">
+            <div class="menu-card-img-wrap">
+              <img src="images/hrana_japrak.jpg" alt="Japrak složen u rozetu sa pavlakom u sredini i čilijem" class="menu-card-img" loading="lazy">
+              <span class="menu-tag tag-green">Hercegovački Biser</span>
+              <span class="menu-tag-status">Potvrđeno u dijalogu</span>
+            </div>
+            <div class="menu-card-body">
+              <div class="menu-card-header">
+                <h3 class="dish-title">Japrak sa Domaćom Pavlakom</h3>
+                <span class="dish-price">12.50 KM</span>
+              </div>
+              <p class="dish-desc">
+                Mladi listovi raštike i vinove loze punjeni sočnim junećim mesom, složeni u rozetu, preliveni sopstvenim sokom i posluženi sa hladnim mileramom i tucanom paprikom.
+              </p>
+              <div class="lzn-humor-quote">
+                <span class="quote-icon">❝</span>
+                <span>Spominje se u istom nizu sa sarmom i sogan-dolmom. Ide idealno uz Izetove priče o NOB-u i partijskim zaslugama.</span>
+              </div>
+              <div class="menu-card-footer">
+                <span class="ingredient-info">Raštika / Loza &middot; Junetina &middot; Pavlaka</span>
+                <button class="btn-add-ceh" onclick="addToReceipt('Japrak sa pavlakom', 12.50)" title="Dodaj na račun">
+                  <span>+ Na Račun</span>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- ITEM 4: PUNJENE PAPRIKE -->
+          <article class="menu-card" data-category="dolme" data-item="paprike">
+            <div class="menu-card-img-wrap">
+              <img src="images/hrana_punjene_paprike.jpg" alt="Domaće punjene paprike u zemljanoj posudi sa saftom" class="menu-card-img" loading="lazy">
+              <span class="menu-tag tag-primary">Domaći Saft</span>
+              <span class="menu-tag-status">Potvrđeno u dijalogu</span>
+            </div>
+            <div class="menu-card-body">
+              <div class="menu-card-header">
+                <h3 class="dish-title">Punjene Paprike („Papričice”)</h3>
+                <span class="dish-price">11.50 KM</span>
+              </div>
+              <p class="dish-desc">
+                Svježe babure punjene domaćim faširanim mesom i rižom, dinstane u gustom paradajz sosu do savršenstva, poslužene uz mirisni topli somun.
+              </p>
+              <div class="lzn-humor-quote">
+                <span class="quote-icon">❝</span>
+                <span>U dijalozima zabilježene kao omiljene „papričice”. Marija ih kuha u velikom loncu za probranu klijentelu za stolom.</span>
+              </div>
+              <div class="menu-card-footer">
+                <span class="ingredient-info">Zelene babure &middot; Juneći fil &middot; Sos od rajčice</span>
+                <button class="btn-add-ceh" onclick="addToReceipt('Punjene paprike', 11.50)" title="Dodaj na račun">
+                  <span>+ Na Račun</span>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- ITEM 5: LJUTI PILEĆI BATACI -->
+          <article class="menu-card" data-category="specijaliteti" data-item="bataci">
+            <div class="menu-card-img-wrap">
+              <img src="images/hrana_pileci_bataci.jpg" alt="Ljuti pileći bataci zapečeni u tavi sa bijelim lukom i čilijem" class="menu-card-img" loading="lazy">
+              <span class="menu-tag tag-fire">🔥 Marijin Trik</span>
+              <span class="menu-tag-status">Epizodni specijalitet</span>
+            </div>
+            <div class="menu-card-body">
+              <div class="menu-card-header">
+                <h3 class="dish-title">Ljuti Pileći Bataci</h3>
+                <span class="dish-price">10.00 KM</span>
+              </div>
+              <p class="dish-desc">
+                Hrskavo zapečeni sočni bataci marinirani u ljutoj tucanoj paprici, bijelom luku i autohtonim začinima. Posluženi direktno iz vrele tave.
+              </p>
+              <div class="lzn-humor-quote">
+                <span class="quote-icon">❝</span>
+                <span>Marijina tajna trgovačka taktika: pojedeš jedan batak, pa zbog ljutine moraš naručiti tri hladna Sarajevska piva zaredom!</span>
+              </div>
+              <div class="menu-card-footer">
+                <span class="ingredient-info">Piletina &middot; Feferoni &middot; Bijeli luk &middot; Začini</span>
+                <button class="btn-add-ceh" onclick="addToReceipt('Ljuti pileći bataci', 10.00)" title="Dodaj na račun">
+                  <span>+ Na Račun</span>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- ITEM 6: JANJETINA & JARETINA -->
+          <article class="menu-card" data-category="pecenje" data-item="janjetina">
+            <div class="menu-card-img-wrap">
+              <img src="images/hrana_janjetina_pecenje.jpg" alt="Janjetina i jaretina na ovalnom srebrenom pladnju sa mladim lukom i salatom" class="menu-card-img" loading="lazy">
+              <span class="menu-tag tag-gold">Samirov „Posao Vijeka”</span>
+              <span class="menu-tag-status">Specijalna prilika</span>
+            </div>
+            <div class="menu-card-body">
+              <div class="menu-card-header">
+                <h3 class="dish-title">Janjetina & Jaretina na Ovalu</h3>
+                <span class="dish-price">38.00 KM <small>/ kg</small></span>
+              </div>
+              <p class="dish-desc">
+                Vrhunsko pečenje s ražnja, siječeno na krupne komade, posluženo na srebrenom ovalu uz mladi luk, svježi domaći somun, krupnu so i ribani kupus.
+              </p>
+              <div class="lzn-humor-quote">
+                <span class="quote-icon">❝</span>
+                <span>Nije na meniju svakog običnog dana — peče se kad Samir zatvori posao sa carinom ili kad Fazlinovići slave iznenadno nasljedstvo.</span>
+              </div>
+              <div class="menu-card-footer">
+                <span class="ingredient-info">Domaće pečenje &middot; Mladi luk &middot; Kupus</span>
+                <button class="btn-add-ceh" onclick="addToReceipt('Janjetina na ovalu (porcija)', 19.00)" title="Dodaj na račun">
+                  <span>+ Na Račun</span>
+                </button>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+        <!-- Menu Note -->
+        <div class="menu-disclaimer-box">
+          <div class="disclaimer-badge">ℹ️ NAPOMENA O JELOVNIKU</div>
+          <p>
+            Sva jela su precizno dokumentovana iz autentičnih dijaloga serije „Lud, zbunjen, normalan”. Cijene i nazivi su kreativna parodijska interpretacija stvorena u duhu serije i ne predstavljaju komercijalni cjenovnik stvarnog ugostiteljskog objekta.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- DRINKS MENU (KARTA PIĆA) -->
+    <section class="section drinks-section" id="pica">
+      <div class="container">
+        
+        <div class="section-header text-center">
+          <span class="section-eyebrow">ŠANK &middot; TOČIONIK &middot; DESTILATI</span>
+          <h2 class="section-title">Karta Pića San Rema</h2>
+          <div class="title-ornament"><span>✦</span></div>
+          <p class="section-subtitle">
+            Kafana je poznata po pićima oko kojih se vode najveće debate: od idealne temperature piva do ljekovitih svojstava domaće Maksuzije.
+          </p>
+        </div>
+
+        <div class="drinks-grid">
+          
+          <!-- DRINK 1: SARAJEVSKO PIVO -->
+          <div class="drink-card">
+            <div class="drink-card-media">
+              <img src="images/pice_toceno_pivo.jpg" alt="Točeno hladno Sarajevsko pivo sa bogatom pjenom u krigli" loading="lazy">
+              <span class="drink-badge">Ikona Šanka</span>
+            </div>
+            <div class="drink-card-content">
+              <div class="drink-meta">
+                <h3 class="drink-name">Sarajevsko Pivo (Hladno k'o led)</h3>
+                <span class="drink-price">3.50 KM</span>
+              </div>
+              <p class="drink-desc">
+                Svijetlo lager pivo točeno sa originalnog keramičkog točionika u masivnu staklenu kriglu sa dva prsta guste pjene.
+              </p>
+              <div class="lzn-drink-note">
+                <strong>Marijin odgovor na pritužbe:</strong> „Nije pivo mlako nego ti sporo piješ! Popij dok se ne ugrije il' naruči sok.”
+              </div>
+              <button class="btn-drink-add" onclick="addToReceipt('Sarajevsko točeno pivo (0.5l)', 3.50)">
+                <span>+ Dodaj Pivo</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- DRINK 2: DOMAĆA MAKSUZIJA -->
+          <div class="drink-card">
+            <div class="drink-card-media">
+              <img src="images/pice_domaca_rakija.jpg" alt="Domaća rakija Maksuzija točena u čokanjiće na šanku" loading="lazy">
+              <span class="drink-badge">Izetov Lijek</span>
+            </div>
+            <div class="drink-card-content">
+              <div class="drink-meta">
+                <h3 class="drink-name">Domaća Maksuzija (Šljivovica)</h3>
+                <span class="drink-price">4.00 KM</span>
+              </div>
+              <p class="drink-desc">
+                Domaća prepečenica od šljive, poslužena u ohlađenom čokanjčiću. Piće oko kojeg se u San Remu vode najozbiljnije medicinske rasprave.
+              </p>
+              <div class="lzn-drink-note">
+                <strong>Izetova dijagnoza:</strong> Univerzalni lijek za kičmu, reumu, politiku, poreznike i loše raspoloženje.
+              </div>
+              <button class="btn-drink-add" onclick="addToReceipt('Domaća Maksuzija (0.05l)', 4.00)">
+                <span>+ Dodaj Maksuziju</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- DRINK 3: ESPRESSO "KRAĆA, JAČA" -->
+          <div class="drink-card">
+            <div class="drink-card-media">
+              <img src="images/pice_kafa_espresso.jpg" alt="Kraća jača espresso kafa i tradicionalna bosanska kafa u džezvi" loading="lazy">
+              <span class="drink-badge">Akord Specijal</span>
+            </div>
+            <div class="drink-card-content">
+              <div class="drink-meta">
+                <h3 class="drink-name">Kafa „Kraća, Jača” (Espresso)</h3>
+                <span class="drink-price">2.00 KM</span>
+              </div>
+              <p class="drink-desc">
+                Ekstremno kratak, jak i gust espresso sa zlatnom kremom, pripremljen bez odugovlačenja, uz čašu hladne vode i krišku limuna.
+              </p>
+              <div class="lzn-drink-note">
+                <strong>Farukov recept:</strong> Kafa koja vraća u život nakon cjelonoćnog natezanja sa pjevačima u studiju Akord.
+              </div>
+              <button class="btn-drink-add" onclick="addToReceipt('Espresso - Kraća, jača', 2.00)">
+                <span>+ Dodaj Kafu</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- DRINK 4: DOMAĆA BOSANSKA KAFA -->
+          <div class="drink-card">
+            <div class="drink-card-media">
+              <img src="images/pice_kafa_espresso.jpg" alt="Domaća kafa u fildžanu i bakarnoj džezvi" loading="lazy">
+              <span class="drink-badge">Tradicija</span>
+            </div>
+            <div class="drink-card-content">
+              <div class="drink-meta">
+                <h3 class="drink-name">Domaća Bosanska Kafa u Džezvi</h3>
+                <span class="drink-price">2.50 KM</span>
+              </div>
+              <p class="drink-desc">
+                Svježe mljevena kafa skuhana u bakarnoj džezvi, servirana na mesinganom tabaku uz fildžan, kocku šećera i sarajevski rahat-lokum.
+              </p>
+              <div class="lzn-drink-note">
+                <strong>Kafanski običaj:</strong> Pije se s nogu za šankom ili satima za stolom dok se prepričava jučerašnja epizoda.
+              </div>
+              <button class="btn-drink-add" onclick="addToReceipt('Domaća kafa u džezvi', 2.50)">
+                <span>+ Dodaj Domaću</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- DRINK 5: DUPLI VISKI & VODKA -->
+          <div class="drink-card">
+            <div class="drink-card-media">
+              <img src="images/gost_damir_viski.webp" alt="Damir Fazlinović sa čašom viskija" loading="lazy">
+              <span class="drink-badge">Za Živce</span>
+            </div>
+            <div class="drink-card-content">
+              <div class="drink-meta">
+                <h3 class="drink-name">Dupli Viski / Trodupla Vodka</h3>
+                <span class="drink-price">6.00 KM</span>
+              </div>
+              <p class="drink-desc">
+                Strana žestoka pića za posebne prilike: kad Samir slavi posao ili kad Damir izgubi živce sa dedom i ocem.
+              </p>
+              <div class="lzn-drink-note">
+                <strong>Scena iz serije:</strong> Naručuje se duplo kad je situacija u kući ili studiju izmakla svakoj kontroli.
+              </div>
+              <button class="btn-drink-add" onclick="addToReceipt('Dupli viski / Vodka', 6.00)">
+                <span>+ Dodaj Žestinu</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- DRINK 6: KISELJAK -->
+          <div class="drink-card">
+            <div class="drink-card-media">
+              <img src="images/pice_toceno_pivo.jpg" alt="Flaša kisele vode na šanku" loading="lazy">
+              <span class="drink-badge">Za One Što Voze</span>
+            </div>
+            <div class="drink-card-content">
+              <div class="drink-meta">
+                <h3 class="drink-name">Sarajevski Kiseljak (Mineralna)</h3>
+                <span class="drink-price">2.50 KM</span>
+              </div>
+              <p class="drink-desc">
+                Gazirana prirodna mineralna voda sa kriškom limuna.
+              </p>
+              <div class="lzn-drink-note">
+                <strong>Namjena:</strong> Za goste koji moraju voziti žutu Bubu, ili one koji „paze na pritisak” pod Izetovim nadzorom.
+              </div>
+              <button class="btn-drink-add" onclick="addToReceipt('Sarajevski kiseljak', 2.50)">
+                <span>+ Dodaj Kiselu</span>
+              </button>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- LIVE FRIDAY MUSIC (MUZIKA PETKOM) -->
+    <section class="section friday-section" id="petak">
+      <div class="container">
+        
+        <div class="friday-banner">
+          
+          <div class="friday-image-col">
+            <div class="friday-frame">
+              <div class="friday-glow"></div>
+              <img src="images/muzika_izet_roker.jpg" alt="Izet Fazlinović u kožnoj bajkerskoj jakni i sunčanim naočalama pjeva u mikrofon u kafani San Remo" class="friday-img" loading="lazy">
+              
+              <div class="live-status-tag">
+                <span class="badge-dot pulse-red"></span>
+                <span>SVAKOG PETKA OD 20:00</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="friday-info-col">
+            <span class="section-eyebrow text-gold">SPECIJALNI KAFANSKI DOGAĐAJ</span>
+            <h2 class="friday-title">Muzika Uživo Svakog Petka!</h2>
+            
+            <p class="friday-lead">
+              Kada padne noć na Sarajevo i radna sedmica završi, San Remo postaje hram sirovog rokenrola i revolucionarnog sevdaha. Za mikrofonom je <strong>Izet Fazlinović</strong> u kožnoj jakni i tamnim cvikerima!
+            </p>
+
+            <div class="friday-features">
+              <div class="feature-line">
+                <span class="f-icon">🎙️</span>
+                <div>
+                  <strong>Solista večeri: Drug Izet Fazlinović</strong>
+                  <p>Vokal, ideološki vođa orkestra i neprikosnoveni vladar bine.</p>
+                </div>
+              </div>
+              <div class="feature-line">
+                <span class="f-icon">🎵</span>
+                <div>
+                  <strong>Repertoar: Od Rokenrola do Partizanskih Koračnica</strong>
+                  <p>Hitovi starih majstora, nostalgične rok balade i pjesme koje Izet improvizuje u hodu.</p>
+                </div>
+              </div>
+              <div class="feature-line">
+                <span class="f-icon">🍺</span>
+                <div>
+                  <strong>Akcija: Pivo teče u potocima</strong>
+                  <p>Marija toči bez prestanka dok god se račun plaća bez filozofiranja.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Interactive Music Buttons -->
+            <div class="friday-actions">
+              <button class="btn btn-gold" id="playRiffBtn" onclick="playRockRiff()">
+                <span class="btn-icon">🎸</span>
+                <span>Pusti Izetov Riff</span>
+              </button>
+              <button class="btn btn-outline" id="cheerBtn" onclick="playKafanaCheer()">
+                <span class="btn-icon">🍻</span>
+                <span>Nazdravi sa Rajom</span>
+              </button>
+              <a href="#kontakt" class="btn btn-secondary">
+                <span>Rezerviši Sto za Petak</span>
+              </a>
+            </div>
+
+            <div class="friday-notice">
+              ⚠️ <em>Napomena: Strogo je zabranjeno naručivanje moderne elektronske muzike dok je Izet za mikrofonom!</em>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- STALNI GOSTI (INVENTAR LOKALA) -->
+    <section class="section guests-section" id="gosti">
+      <div class="container">
+        
+        <div class="section-header text-center">
+          <span class="section-eyebrow">INVENTAR KAFANE SAN REMO</span>
+          <h2 class="section-title">Stalni Gosti i Likovi</h2>
+          <div class="title-ornament"><span>✦</span></div>
+          <p class="section-subtitle">
+            Ljudi bez kojih San Remo ne bi bio isti. Više vremena provode za ovim šankom nego u sopstvenim krevetima.
+          </p>
+        </div>
+
+        <div class="guests-grid">
+          
+          <!-- GOST 1: IZET FAZLINOVIĆ -->
+          <article class="guest-card">
+            <div class="guest-photo-wrap">
+              <img src="images/trio_fazlinovici_pidzama.jpg" alt="Izet Fazlinović u prugastoj pidžami sa kapom" class="guest-photo" loading="lazy">
+              <span class="guest-badge badge-izet">Doživotni Predsjednik</span>
+            </div>
+            <div class="guest-content">
+              <h3 class="guest-name">Izet Fazlinović</h3>
+              <div class="guest-role">Predsjednik kućnog savjeta & Solista</div>
+              <p class="guest-bio">
+                Borac za pravdu, besplatnu sarmu i ideale partizanskog pokreta. Ne priznaje inflaciju, a sluh mu misteriozno nestaje kad treba platiti rundu.
+              </p>
+              <div class="guest-specs">
+                <div class="spec-row"><span>Omiljeno piće:</span> <strong>Domaća Maksuzija</strong></div>
+                <div class="spec-row"><span>Hrana:</span> <strong>Sarma (kad je džabe)</strong></div>
+                <div class="spec-row"><span>Status kod Marije:</span> <strong class="text-danger">Stalni dužnik</strong></div>
+              </div>
+            </div>
+          </article>
+
+          <!-- GOST 2: FARUK FAZLINOVIĆ -->
+          <article class="guest-card">
+            <div class="guest-photo-wrap">
+              <img src="images/gost_faruk_stres.jpg" alt="Faruk Fazlinović sa izrazom stresa u studiju Akord" class="guest-photo" loading="lazy">
+              <span class="guest-badge badge-faruk">Muzički Producent</span>
+            </div>
+            <div class="guest-content">
+              <h3 class="guest-name">Faruk Fazlinović</h3>
+              <div class="guest-role">Vlasnik studija „Akord” & Dužnik</div>
+              <p class="guest-bio">
+                Hronično pod stresom zbog pjevača i oca. Bježi preko puta u kafanu da popije kafu i pivo s pogledom u prazno, dok Marija bilježi dug.
+              </p>
+              <div class="guest-specs">
+                <div class="spec-row"><span>Omiljeno piće:</span> <strong>„Kraća, jača” + Pivo</strong></div>
+                <div class="spec-row"><span>Dug na tefteru:</span> <strong>843,50 KM</strong></div>
+                <div class="spec-row"><span>Status:</span> <strong>U potrazi za hitom</strong></div>
+              </div>
+            </div>
+          </article>
+
+          <!-- GOST 3: DAMIR FAZLINOVIĆ -->
+          <article class="guest-card">
+            <div class="guest-photo-wrap">
+              <img src="images/gost_damir_viski.webp" alt="Damir Fazlinović sa čašom pića na kauču" class="guest-photo" loading="lazy">
+              <span class="guest-badge badge-damir">Student Medicine</span>
+            </div>
+            <div class="guest-content">
+              <h3 class="guest-name">Damir Fazlinović</h3>
+              <div class="guest-role">Specijalizant & Jedini normalan</div>
+              <p class="guest-bio">
+                Pokušava završiti medicinu i ostati pri zdravoj pameti. U San Remo dolazi po brzi espresso, ali neizbježno završi kao žrtva novog dedinog plana.
+              </p>
+              <div class="guest-specs">
+                <div class="spec-row"><span>Omiljeno piće:</span> <strong>Kratki espresso / Viski</strong></div>
+                <div class="spec-row"><span>Uloga:</span> <strong>Rješava porodične haose</strong></div>
+                <div class="spec-row"><span>Plaća:</span> <strong class="text-success">Uredno u kešu</strong></div>
+              </div>
+            </div>
+          </article>
+
+          <!-- GOST 4: DINO MEHMEDA MUJKIĆ -->
+          <article class="guest-card">
+            <div class="guest-photo-wrap">
+              <img src="images/dino_refko_stocic.jpg" alt="Dino Mehmeda Mujkić i Refko za stolom u San Remu" class="guest-photo" loading="lazy">
+              <span class="guest-badge badge-dino">Glavni Tonac</span>
+            </div>
+            <div class="guest-content">
+              <h3 class="guest-name">Dino Mehmeda Mujkić</h3>
+              <div class="guest-role">Ton-majstor & Dobra duša kafane</div>
+              <p class="guest-bio">
+                Najiskreniji čovjek u Sarajevu. Voli dobro pojesti, popiti hladno pivo i zaplakati u zelenom toaletu kafane kad ga pogodi nepravda.
+              </p>
+              <div class="guest-specs">
+                <div class="spec-row"><span>Omiljeno piće:</span> <strong>Veliko točeno pivo</strong></div>
+                <div class="spec-row"><span>Hrana:</span> <strong>Sve sa jelovnika</strong></div>
+                <div class="spec-row"><span>Lokacija:</span> <strong>Za stolom ili u WC-u</strong></div>
+              </div>
+            </div>
+          </article>
+
+          <!-- GOST 5: SAMIR FAZLINOVIĆ -->
+          <article class="guest-card">
+            <div class="guest-photo-wrap">
+              <img src="images/gost_samir_biznis.webp" alt="Samir Fazlinović sa zlatnim prstenom i zagonetnim osmijehom" class="guest-photo" loading="lazy">
+              <span class="guest-badge badge-samir">Posao Stoljeća</span>
+            </div>
+            <div class="guest-content">
+              <h3 class="guest-name">Samir Fazlinović</h3>
+              <div class="guest-role">Biznismen & Generalni posrednik</div>
+              <p class="guest-bio">
+                Ima robu iz Njemačke, vezu na carini i poslovnu ponudu koja se ne odbija. Naruči duplo piće, podijeli vizitke i nestane dvije minute prije računa.
+              </p>
+              <div class="guest-specs">
+                <div class="spec-row"><span>Omiljeno piće:</span> <strong>Strana žestina sa ledom</strong></div>
+                <div class="spec-row"><span>Specijalnost:</span> <strong>Kombinacije bez pokrića</strong></div>
+                <div class="spec-row"><span>Račun:</span> <strong class="text-danger">Plaća neko drugi</strong></div>
+              </div>
+            </div>
+          </article>
+
+          <!-- GOST 6: ČOMBE & REFKO -->
+          <article class="guest-card">
+            <div class="guest-photo-wrap">
+              <img src="images/combe_prica_za_sankom.jpg" alt="Čombe objašnjava za šankom Izetu i Faruku" class="guest-photo" loading="lazy">
+              <span class="guest-badge badge-combe">Dežurni Mudraci</span>
+            </div>
+            <div class="guest-content">
+              <h3 class="guest-name">Čombe & Refko</h3>
+              <div class="guest-role">Šank filozofi & Muzički menadžeri</div>
+              <p class="guest-bio">
+                Nepokolebljivi čuvari šanka. Spremni su satima raspravljati o svemiru, gitarskim pojačalima i tome zašto su bataci toliko ljuti.
+              </p>
+              <div class="guest-specs">
+                <div class="spec-row"><span>Omiljeno piće:</span> <strong>Točeno pivo u krigli</strong></div>
+                <div class="spec-row"><span>Zanimanje:</span> <strong>Čekaju da se nešto desi</strong></div>
+                <div class="spec-row"><span>Prisustvo:</span> <strong>100% radnog vremena</strong></div>
+              </div>
+            </div>
+          </article>
+
+          <!-- GOST 7: MARIJA MRVICA (GAZDARICA) -->
+          <article class="guest-card card-marija">
+            <div class="guest-photo-wrap">
+              <img src="images/marija_i_gosti_sank.jpg" alt="Marija Mrvica za šankom drži red" class="guest-photo" loading="lazy">
+              <span class="guest-badge badge-marija">Vrhovni Zakon</span>
+            </div>
+            <div class="guest-content">
+              <h3 class="guest-name">Marija Mrvica</h3>
+              <div class="guest-role">Vlasnica & Glavna gazdarica</div>
+              <p class="guest-bio">
+                Žena od autoriteta, britkog jezika i teške ruke. Uspješno drži u šahu sve Fazlinoviće, odbija lažne čekove i lično vodi račune.
+              </p>
+              <div class="guest-specs">
+                <div class="spec-row"><span>Oružje:</span> <strong>Krpa za šank i pogled</strong></div>
+                <div class="spec-row"><span>Pravilo:</span> <strong>Nema veresije nikome</strong></div>
+                <div class="spec-row"><span>Autoritet:</span> <strong class="text-gold">Apsolutan</strong></div>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- KUĆNI RED KAFANE (RULES) -->
+    <section class="section rules-section" id="kucni-red">
+      <div class="container">
+        
+        <div class="rules-frame">
+          <div class="rules-header">
+            <span class="rules-seal">KAFANA SAN REMO</span>
+            <h2 class="rules-title">Kućni Red & Pravilnik Ponašanja</h2>
+            <p class="rules-subtitle">Usvojeno jednoglasno na šanku, uz odobrenje gazdarice Marije Mrvice</p>
+          </div>
+
+          <div class="rules-list">
+            
+            <div class="rule-item">
+              <div class="rule-num">01</div>
+              <div class="rule-text">
+                <h4>Gost NIKAD nije u pravu</h4>
+                <p>Ukoliko se mišljenje gosta kosi sa mišljenjem gazdarice Marije, automatski se primjenjuje član 1 — Marija je u pravu, a gost može napustiti objekat.</p>
+              </div>
+            </div>
+
+            <div class="rule-item">
+              <div class="rule-num">02</div>
+              <div class="rule-text">
+                <h4>Zabrana veresije i izmišljenih honorara</h4>
+                <p>Nema pijenja na „dođem ti”, na „čekam pare iz banke” niti na „snimili smo hit u Akordu”. Račun se plaća odmah po spuštanju čaše na šank.</p>
+              </div>
+            </div>
+
+            <div class="rule-item">
+              <div class="rule-num">03</div>
+              <div class="rule-text">
+                <h4>Pravilo o temperaturi piva</h4>
+                <p>Pivo iz točionika izlazi na tačno propisanoj temperaturi. Ako je u tvojoj krigli mlako, to je zato što držiš govore umjesto da piješ.</p>
+              </div>
+            </div>
+
+            <div class="rule-item">
+              <div class="rule-num">04</div>
+              <div class="rule-text">
+                <h4>Muzički instrumenti i klavir</h4>
+                <p>Zabranjeno je nasumično lupanje po klaviru i dirkama. Instrumentima smiju prilaziti samo ovlaštena lica i drug Izet kad krene večer rokenrola.</p>
+              </div>
+            </div>
+
+            <div class="rule-item">
+              <div class="rule-num">05</div>
+              <div class="rule-text">
+                <h4>Poker aparat u uglu</h4>
+                <p>Aparat radi po sopstvenoj volji i zakonima fizike. Ako vam „proguta” dvije marke, molimo da se ne žalite osoblju — Marija ne otvara kasu aparata.</p>
+              </div>
+            </div>
+
+            <div class="rule-item">
+              <div class="rule-num">06</div>
+              <div class="rule-text">
+                <h4>Zabrana sakrivanja računa</h4>
+                <p>Svaki pokušaj guranja računa pod vazu sa gerberom ili bježanja dok konobarica Selma gleda na drugu stranu bit će sankcionisan javnim sramoćenjem na mikrofon.</p>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="rules-footer">
+            <span class="sign-text">Potpis: <em>Marija Mrvica, s.r.</em></span>
+            <span class="stamp-box">OVJERENO BEZ POPUSTA</span>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- GALERIJA FOTOGRAFIJA (AUTHENTIC GALLERY) -->
+    <section class="section gallery-section" id="galerija">
+      <div class="container">
+        
+        <div class="section-header text-center">
+          <span class="section-eyebrow">AUTENTIČNA SAN REMO ARHIVA</span>
+          <h2 class="section-title">Foto Galerija Lokala</h2>
+          <div class="title-ornament"><span>✦</span></div>
+          <p class="section-subtitle">
+            Sve originalne fotografije kafane, šanka, enterijera, pripremljene hrane, točenog piva i nezaboravnih trenutaka stalnih gostiju.
+          </p>
+        </div>
+
+        <!-- Gallery Filters -->
+        <div class="gallery-filter-bar">
+          <button class="g-filter-btn active" data-gfilter="all">Sve Fotografije (21)</button>
+          <button class="g-filter-btn" data-gfilter="sank">Šank & Enterijer</button>
+          <button class="g-filter-btn" data-gfilter="hrana">Domaća Hrana</button>
+          <button class="g-filter-btn" data-gfilter="pice">Kafanska Pića</button>
+          <button class="g-filter-btn" data-gfilter="gosti">Gosti & Scena</button>
+          <button class="g-filter-btn" data-gfilter="petak">Petak Uživo</button>
+        </div>
+
+        <!-- Gallery Grid -->
+        <div class="gallery-grid" id="photoGalleryGrid">
+          
+          <!-- Photo 1 -->
+          <div class="gallery-item" data-gcat="sank gosti" onclick="openLightbox(0)">
+            <img src="images/hero_trio_sank.jpg" alt="Faruk, Čombe i Izet za šankom uz Sarajevsko točionik" loading="lazy">
+            <div class="gallery-item-overlay">
+              <span class="g-title">Trio za šankom</span>
+              <span class="g-sub">Izet, Čombe i Faruk uz keramički točionik</span>
+              <span class="g-zoom-icon">🔍</span>
+            </div>
+          </div>
+
+          <!-- Photo 2 -->
+          <div class="gallery-item" data-gcat="sank gosti" onclick="openLightbox(1)">
+            <img src="images/combe_prica_za_sankom.jpg" alt="Čombe objašnjava za šankom" loading="lazy">
+            <div class="gallery-item-overlay">
+              <span class="g-title">Čombe filozofira</span>
+              <span class="g-sub">Debata uz pivo i gerber na pultu</span>
+              <span class="g-zoom-icon">🔍</span>
+            </div>
+          </div>
+
+          <!-- Photo 3 -->
+          <div class="gallery-item" data-gcat="sank" onclick="openLightbox(2)">
+            <img src="images/marija_i_gosti_sank.jpg" alt="Marija Mrvica sa Farukom i Čombetom za šankom" loading="lazy">
+            <div class="gallery-item-overlay">
+              <span class="g-title">Marija za šankom</span>
+              <span class="g-sub">Gazdarica pod neonskim znakom San Remo</span>
+              <span class="g-zoom-icon">🔍</span>
+            </div>
+          </div>
+
+          <!-- Photo 4 -->
+          <div class="gallery-item" data-gcat="sank gosti" onclick="openLightbox(3)">
+            <img src="images/samir_i_marija_dil.jpg" alt="Samir Fazlinović i Marija za stolom" loading="lazy">
+            <div class="gallery-item-overlay">
+              <span class="g-title">Poslovni dogovor</span>
+              <span class="g-sub">Samir i Marija pod neonom San Remo</span>
+              <span class="g-zoom-icon">🔍</span>
+            </div>
+          </div>
+
+          <!-- Photo 5 -->
+          <div class="gallery-item" data-gcat="sank pice" onclick="openLightbox(4)">
+            <img src="images/combe_toceno_knjiga.jpg" alt="Čombe sa točenim pivom i knjigom" loading="lazy">
+            <div class="gallery-item-overlay">
+              <span class="g-title">Pivo i kultura</span>
+              <span class="g-sub">Krigla točenog i rijetka knjiga</span>
+              <span class="g-zoom-icon">🔍</span>
+            </div>
+          </div>
+
+          <!-- Photo 6 -->
+          <div class="gallery-item" data-gcat="sank" onclick="openLightbox(5)">
+            <img src="images/zgrada_akord_eksterijer.png" alt="Zgrada, ulaz u Akord i žuta buba" loading="lazy">
+            <div class="gallery-item-overlay">
+              <span class="g-title">Zgrada & Akord</span>
+              <span class="g-sub">Eksterijer preko puta San Rema</span>
+              <span class="g-zoom-icon">🔍</span>
+            </div>
+          </div>
+
+          <!-- Photo 7: Sarma -->
+          <div class="gallery-item" data-gcat="hrana" onclick="openLightbox(6)">
+            <img src="images/hrana_sarma.jpg" alt="Domaća sarma u zemljanoj posudi" loading="lazy">
+            <div class="gallery-item-overlay">
+              <span class="g-title">Sarma u zemljanoj posudi</span>
+              <span class="g-sub">Izetov omiljeni specijalitet</span>
+              <span class="g-zoom-icon">🔍</span>
+            </div>
+          </div>
+
+          <!-- Photo 8: Sogan-dolma -->
+          <div class="gallery-item" data-gcat="hrana" onclick="openLightbox(7)">
+            <img src="images/hrana_sogan_dolma.jpg" alt="Sogan-dolma na tanjiru" loading="lazy">
+            <div class="gallery-item-overlay">
+              <span class="g-title">Sogan-Dolma</span>
+              <span class="g-sub">Domaće punjene glavice luka</span>
+              <span class="g-zoom-icon">🔍</span>
+            </div>
+          </div>
+
+          <!-- Photo 9: Japrak -->
+          <div class="gallery-item" data-gcat="hrana" onclick="openLightbox(8)">
+            <img src="images/hrana_japrak.jpg" alt="Japrak sa pavlakom" loading="lazy">
+            <div class="gallery-item-overlay">
+              <span class="g-title">Japrak sa pavlakom</span>
+              <span class="g-sub">Listovi raštike punjeni mesom</span>
+              <span class="g-zoom-icon">🔍</span>
+            </div>
+          </div>
+
+          <!-- Photo 10: Janjetina -->
+          <div class="gallery-item" data-gcat="hrana" onclick="openLightbox(9)">
+            <img src="images/hrana_janjetina_pecenje.jpg" alt="Janjetina na ovalu sa mladim lukom" loading="lazy">
+            <div class="gallery-item-overlay">
+              <span class="g-title">Janjetina na ovalu</span>
+              <span class="g-sub">Samirovo slavljeničko pečenje</span>
+              <span class="g-zoom-icon">🔍</span>
+            </div>
+          </div>
+
+          <!-- Photo 11: Punjene paprike -->
+          <div class="gallery-item" data-gcat="hrana" onclick="openLightbox(10)">
+            <img src="images/hrana_punjene_paprike.jpg" alt="Punjene paprike u sosu" loading="lazy">
+            <div class="gallery-item-overlay">
+              <span class="g-title">Punjene paprike</span>
+              <span class="g-sub">Kuhana jela po Marijinom receptu</span>
+              <span class="g-zoom-icon">🔍</span>
+            </div>
+          </div>
+
+          <!-- Photo 12: Bataci -->
+          <div class="gallery-item" data-gcat="hrana" onclick="openLightbox(11)">
+            <img src="images/hrana_pileci_bataci.jpg" alt="Ljuti pileći bataci u tavi" loading="lazy">
+            <div class="gallery-item-overlay">
+              <span class="g-title">Ljuti pileći bataci</span>
+              <span class="g-sub">Specijalitet koji traži točeno pivo</span>
+              <span class="g-zoom-icon">🔍</span>
+            </div>
+          </div>
+
+          <!-- Photo 13: Točeno pivo -->
+          <div class="gallery-item" data-gcat="pice" onclick="openLightbox(12)">
+            <img src="images/pice_toceno_pivo.jpg" alt="Hladno točeno pivo u staklenoj krigli" loading="lazy">
+            <div class="gallery-item-overlay">
+              <span class="g-title">Hladno točeno pivo</span>
+              <span class="g-sub">Krigla sa bogatom pjenom</span>
+              <span class="g-zoom-icon">🔍</span>
+            </div>
+          </div>
+
+          <!-- Photo 14: Maksuzija -->
+          <div class="gallery-item" data-gcat="pice" onclick="openLightbox(13)">
+            <img src="images/pice_domaca_rakija.jpg" alt="Domaća rakija Maksuzija točena na šanku" loading="lazy">
+            <div class="gallery-item-overlay">
+              <span class="g-title">Domaća Maksuzija</span>
+              <span class="g-sub">Izetova ljekovita prepečenica</span>
+              <span class="g-zoom-icon">🔍</span>
+            </div>
+          </div>
+
+          <!-- Photo 15: Kafa -->
+          <div class="gallery-item" data-gcat="pice" onclick="openLightbox(14)">
+            <img src="images/pice_kafa_espresso.jpg" alt="Kraća jača espresso i bosanska kafa u džezvi" loading="lazy">
+            <div class="gallery-item-overlay">
+              <span class="g-title">„Kraća, jača” kafa</span>
+              <span class="g-sub">Espresso i tradicionalna džezva</span>
+              <span class="g-zoom-icon">🔍</span>
+            </div>
+          </div>
+
+          <!-- Photo 16: Dino i Refko za stolom -->
+          <div class="gallery-item" data-gcat="gosti" onclick="openLightbox(15)">
+            <img src="images/dino_refko_stocic.jpg" alt="Dino Mehmeda Mujkić i Refko za stolom pod neonom" loading="lazy">
+            <div class="gallery-item-overlay">
+              <span class="g-title">Dino i Refko</span>
+              <span class="g-sub">Kafanski sto pod neonom San Rema</span>
+              <span class="g-zoom-icon">🔍</span>
+            </div>
+          </div>
+
+          <!-- Photo 17: Dino u WC-u -->
+          <div class="gallery-item" data-gcat="gosti" onclick="openLightbox(16)">
+            <img src="images/gost_dino_wc.jpg" alt="Dino Mehmeda Mujkić u zelenom toaletu kafane" loading="lazy">
+            <div class="gallery-item-overlay">
+              <span class="g-title">Dino u zelenom toaletu</span>
+              <span class="g-sub">Kultna scena kafanske drame</span>
+              <span class="g-zoom-icon">🔍</span>
+            </div>
+          </div>
+
+          <!-- Photo 18: Damir sa viskijem -->
+          <div class="gallery-item" data-gcat="gosti pice" onclick="openLightbox(17)">
+            <img src="images/gost_damir_viski.webp" alt="Damir Fazlinović sa čašom pića" loading="lazy">
+            <div class="gallery-item-overlay">
+              <span class="g-title">Damir i viski</span>
+              <span class="g-sub">Trenutak predaha od porodice</span>
+              <span class="g-zoom-icon">🔍</span>
+            </div>
+          </div>
+
+          <!-- Photo 19: Fazlinovići trio pidžama -->
+          <div class="gallery-item" data-gcat="gosti" onclick="openLightbox(18)">
+            <img src="images/trio_fazlinovici_pidzama.jpg" alt="Damir, Izet u pidžami i Faruk" loading="lazy">
+            <div class="gallery-item-overlay">
+              <span class="g-title">Tri generacije</span>
+              <span class="g-sub">Damir, Izet i Faruk Fazlinović</span>
+              <span class="g-zoom-icon">🔍</span>
+            </div>
+          </div>
+
+          <!-- Photo 20: Samir Fazlinović portret -->
+          <div class="gallery-item" data-gcat="gosti" onclick="openLightbox(19)">
+            <img src="images/gost_samir_biznis.webp" alt="Samir Fazlinović sa zagonetnim pogledom" loading="lazy">
+            <div class="gallery-item-overlay">
+              <span class="g-title">Samir Fazlinović</span>
+              <span class="g-sub">Direktor brzih aranžmana</span>
+              <span class="g-zoom-icon">🔍</span>
+            </div>
+          </div>
+
+          <!-- Photo 21: Izet roker petak -->
+          <div class="gallery-item" data-gcat="petak gosti" onclick="openLightbox(20)">
+            <img src="images/muzika_izet_roker.jpg" alt="Izet Fazlinović u kožnoj jakni pjeva na mikrofonu" loading="lazy">
+            <div class="gallery-item-overlay">
+              <span class="g-title">Izet Fazlinović Roker</span>
+              <span class="g-sub">Svirka uživo petkom u San Remu</span>
+              <span class="g-zoom-icon">🔍</span>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- FULLSCREEN LIGHTBOX MODAL -->
+    <div class="lightbox-modal" id="lightboxModal" aria-hidden="true" role="dialog" aria-label="Pregled fotografije">
+      <div class="lightbox-backdrop" onclick="closeLightbox()"></div>
+      <div class="lightbox-container">
+        <button class="lightbox-close-btn" onclick="closeLightbox()" aria-label="Zatvori">&times;</button>
+        <button class="lightbox-arrow arrow-prev" onclick="prevLightboxImage()" aria-label="Prethodna slika">&#10094;</button>
+        <div class="lightbox-media-wrap">
+          <img src="" alt="" class="lightbox-img" id="lightboxImg">
+          <div class="lightbox-caption" id="lightboxCaption">
+            <h4 id="lbTitle"></h4>
+            <p id="lbDesc"></p>
+          </div>
+        </div>
+        <button class="lightbox-arrow arrow-next" onclick="nextLightboxImage()" aria-label="Sljedeća slika">&#10095;</button>
+      </div>
+    </div>
+
+    <!-- INTERAKTIVNI KAFANSKI CEH / KALKULATOR VERESIJE -->
+    <section class="section receipt-section" id="kalkulator">
+      <div class="container">
+        
+        <div class="section-header text-center">
+          <span class="section-eyebrow">MARIJIN TEFTER &middot; RAČUN BEZ POPUSTA</span>
+          <h2 class="section-title">Kafanski Ceh & Kalkulator Veresije</h2>
+          <div class="title-ornament"><span>✦</span></div>
+          <p class="section-subtitle">
+            Izaberi šta piješ i šta jedeš, saberite račun i testirajte svoje šanse da platite na Izetov račun ili pobjegnete Mariji!
+          </p>
+        </div>
+
+        <div class="receipt-interactive-card">
+          
+          <!-- Left: Quick Menu Selection -->
+          <div class="receipt-picker-col">
+            <h3 class="col-heading">Naruči kod Marije za sto:</h3>
+            
+            <div class="quick-order-list">
+              
+              <div class="order-chip" onclick="addToReceipt('Sarma u zemljanoj posudi', 12.00)">
+                <span class="chip-name">🍲 Sarma u zemljanoj posudi</span>
+                <span class="chip-price">12.00 KM</span>
+              </div>
+
+              <div class="order-chip" onclick="addToReceipt('Sogan-dolma', 13.00)">
+                <span class="chip-name">🧅 Sogan-dolma</span>
+                <span class="chip-price">13.00 KM</span>
+              </div>
+
+              <div class="order-chip" onclick="addToReceipt('Japrak sa pavlakom', 12.50)">
+                <span class="chip-name">🌿 Japrak sa pavlakom</span>
+                <span class="chip-price">12.50 KM</span>
+              </div>
+
+              <div class="order-chip" onclick="addToReceipt('Punjene paprike', 11.50)">
+                <span class="chip-name">🫑 Punjene paprike</span>
+                <span class="chip-price">11.50 KM</span>
+              </div>
+
+              <div class="order-chip" onclick="addToReceipt('Ljuti pileći bataci', 10.00)">
+                <span class="chip-name">🍗 Ljuti pileći bataci</span>
+                <span class="chip-price">10.00 KM</span>
+              </div>
+
+              <div class="order-chip" onclick="addToReceipt('Janjetina na ovalu', 19.00)">
+                <span class="chip-name">🍖 Janjetina na ovalu</span>
+                <span class="chip-price">19.00 KM</span>
+              </div>
+
+              <div class="order-chip" onclick="addToReceipt('Sarajevsko točeno pivo (0.5l)', 3.50)">
+                <span class="chip-name">🍺 Sarajevsko točeno (0.5l)</span>
+                <span class="chip-price">3.50 KM</span>
+              </div>
+
+              <div class="order-chip" onclick="addToReceipt('Domaća Maksuzija (0.05l)', 4.00)">
+                <span class="chip-name">🥃 Domaća Maksuzija</span>
+                <span class="chip-price">4.00 KM</span>
+              </div>
+
+              <div class="order-chip" onclick="addToReceipt('Espresso - Kraća, jača', 2.00)">
+                <span class="chip-name">☕ Kafa „Kraća, jača”</span>
+                <span class="chip-price">2.00 KM</span>
+              </div>
+
+              <div class="order-chip" onclick="addToReceipt('Sarajevski kiseljak', 2.50)">
+                <span class="chip-name">💧 Sarajevski kiseljak</span>
+                <span class="chip-price">2.50 KM</span>
+              </div>
+
+            </div>
+
+          </div>
+
+          <!-- Right: The Authentic Receipt Paper -->
+          <div class="receipt-paper-col">
+            <div class="paper-receipt">
+              
+              <div class="paper-header">
+                <div class="receipt-logo">KAFANA SAN REMO</div>
+                <div class="receipt-meta">
+                  Sarajevo, prekoputa Akorda<br>
+                  Konobar: Marija Mrvica &middot; Sto #4 (Izetov sto)<br>
+                  <span id="receiptDate">Datum: Danas</span>
+                </div>
+                <div class="receipt-line">----------------------------------------</div>
+              </div>
+
+              <!-- Dynamic Receipt Items -->
+              <div class="receipt-items-list" id="receiptItemsList">
+                <div class="receipt-empty-state">
+                  <span>Još ništa niste naručili za šankom.</span>
+                  <small>Kliknite na stavke s lijeve strane ili iz jelovnika!</small>
+                </div>
+              </div>
+
+              <div class="receipt-line">----------------------------------------</div>
+
+              <!-- Total calculation -->
+              <div class="receipt-summary">
+                <div class="sum-row">
+                  <span>UKUPNO CEH:</span>
+                  <strong id="receiptTotalAmount">0.00 KM</strong>
+                </div>
+                <div class="sum-row tax-row">
+                  <span>Veresija odobrena:</span>
+                  <span>0.00 KM (Zakon kuće)</span>
+                </div>
+              </div>
+
+              <div class="receipt-line">----------------------------------------</div>
+
+              <!-- Payment Action Buttons (With Hilarious LZN Outcomes) -->
+              <div class="payment-methods">
+                <div class="pay-title">Izaberite način plaćanja:</div>
+                
+                <button class="pay-btn btn-izet" onclick="attemptPayment('izet')">
+                  <span>🎩 Stavi na Izetov račun</span>
+                </button>
+
+                <button class="pay-btn btn-samir" onclick="attemptPayment('samir')">
+                  <span>💼 Zovi Samira da riješi</span>
+                </button>
+
+                <button class="pay-btn btn-tefter" onclick="attemptPayment('tefter')">
+                  <span>📝 Pokušaj na veresiju</span>
+                </button>
+
+                <button class="pay-btn btn-cash" onclick="attemptPayment('kes')">
+                  <span>💵 Plati uredno u kešu (Marijin izbor)</span>
+                </button>
+
+                <button class="pay-btn btn-clear" onclick="clearReceipt()">
+                  <span>🗑️ Poništi narudžbu</span>
+                </button>
+              </div>
+
+              <!-- Humor Alert Box -->
+              <div class="receipt-alert-box" id="receiptAlertBox" style="display: none;">
+                <div class="alert-icon" id="alertIcon">📢</div>
+                <div class="alert-body">
+                  <h4 id="alertTitle">Marija odgovara:</h4>
+                  <p id="alertMessage"></p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- KONTAKT & REZERVACIJE -->
+    <section class="section contact-section" id="kontakt">
+      <div class="container">
+        
+        <div class="section-header text-center">
+          <span class="section-eyebrow">LOKACIJA & REZERVACIJE</span>
+          <h2 class="section-title">Posjetite San Remo</h2>
+          <div class="title-ornament"><span>✦</span></div>
+          <p class="section-subtitle">
+            Pronađite nas u Sarajevu, pozovite šank preko mesinganog telefona ili pošaljite upit za slobodan sto.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          
+          <!-- Contact Left: Brass Telephone & Details -->
+          <div class="contact-details-card">
+            
+            <div class="phone-interactive-box" onclick="playRotaryPhone()" title="Klikni na telefon za zvuk!">
+              <div class="phone-icon-visual">☎️</div>
+              <div class="phone-callout">
+                <span class="badge-dot pulse-red"></span>
+                <span>Klikni za poziv na šank</span>
+              </div>
+              <h3 class="phone-number-display">+387 33 000-REMO</h3>
+              <p class="phone-hint">Mesingani telefon sa rotary brojčanikom direktno na pultu.</p>
+            </div>
+
+            <div class="contact-items">
+              
+              <div class="c-item">
+                <div class="c-icon">📍</div>
+                <div class="c-info">
+                  <strong>Adresa i Lokacija:</strong>
+                  <p>Ul. Zmaja od Bosne bb, Sarajevo<br>
+                  <small><em>Tačno prekoputa ulaza u muzički studio „Akord” i zgrade Fazlinovića.</em></small></p>
+                </div>
+              </div>
+
+              <div class="c-item">
+                <div class="c-icon">🕒</div>
+                <div class="c-info">
+                  <strong>Radno Vrijeme:</strong>
+                  <p>Ponedjeljak &ndash; Četvrtak: <strong>07:00 &ndash; 23:00</strong><br>
+                  Petak (Muzika Uživo): <strong>07:00 &ndash; Dok Izet ne završi</strong><br>
+                  Subota &ndash; Nedjelja: <strong>08:00 &ndash; 00:00</strong></p>
+                </div>
+              </div>
+
+              <div class="c-item">
+                <div class="c-icon">💬</div>
+                <div class="c-info">
+                  <strong>Direktan WhatsApp Kontakt:</strong>
+                  <p>
+                    <a href="https://wa.me/38761248690" target="_blank" rel="noopener" class="wa-link">
+                      <strong>+387 61 248 690</strong> (Trako Webdesigner)
+                    </a>
+                  </p>
+                </div>
+              </div>
+
+            </div>
+
+            <!-- Parking note -->
+            <div class="parking-box">
+              🚗 <strong>Parking napomena:</strong> Žuta buba ima prednost na trotoaru ispred ulaza. Ne parkirajte na Izetovo mjesto pod prijetnjom tužbe kućnog savjeta!
+            </div>
+
+          </div>
+
+          <!-- Contact Right: Humorous Reservation Form -->
+          <div class="contact-form-card">
+            <h3 class="form-title">Rezervacija Stola kod Marije</h3>
+            <p class="form-lead">Popunite obrazac ako želite sto za petak navečer ili ručak sa sarmom.</p>
+
+            <form id="reservationForm" onsubmit="handleReservation(event)">
+              
+              <div class="form-group">
+                <label for="resName">Vaše Ime i Prezime:</label>
+                <input type="text" id="resName" class="form-control" placeholder="npr. Samir Fazlinović" required>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="resGuests">Broj Gostiju:</label>
+                  <select id="resGuests" class="form-control">
+                    <option value="1">1 osoba (Samo da popijem kafu)</option>
+                    <option value="2">2 osobe (Razgovor o poslu)</option>
+                    <option value="3" selected>3 osobe (Kafanski trio)</option>
+                    <option value="4">4 osobe (Ceo kućni savjet)</option>
+                    <option value="6">6+ osoba (Slavimo rokenrol)</option>
+                  </select>
+                </div>
+
+                <div class="form-group">
+                  <label for="resDay">Dan Dolaska:</label>
+                  <select id="resDay" class="form-control">
+                    <option value="petak">Petak (Izetova svirka uživo)</option>
+                    <option value="subota">Subota (Domaći ručak)</option>
+                    <option value="nedjelja">Nedjelja (Kafa i novine)</option>
+                    <option value="radni">Radni dan (Na brzinu s nogu)</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="resPayment">Kako planirate platiti:</label>
+                <select id="resPayment" class="form-control">
+                  <option value="kes" selected>Kešom na licu mjesta (Marija odobrava)</option>
+                  <option value="izet">Pokušat ću na Izetov račun (Rizično)</option>
+                  <option value="samir">Samir je obećao riješiti (Vrlo sumnjivo)</option>
+                  <option value="kartica">Plastična kartica (Marija ne prima)</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="resNote">Posebna Želja ili Napomena:</label>
+                <textarea id="resNote" class="form-control" rows="3" placeholder="npr. Molim vas sto što dalje od Izetovog zvučnika, ili blizu točionika za pivo..."></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary w-full">
+                <span>Pošalji Zahtjev Mariji na Šank</span>
+              </button>
+
+            </form>
+
+            <div class="form-response-box" id="formResponseBox" style="display: none;">
+              <span class="resp-icon">✅</span>
+              <div class="resp-text">
+                <h4>Zahtjev primljen na šanku!</h4>
+                <p id="respMessage">Marija je pročitala vaš zahtjev. Ako ste ponijeli gotovinu, sto vas čeka!</p>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      
+      <div class="footer-grid">
+        
+        <!-- Col 1: Brand & Identity -->
+        <div class="footer-col col-brand">
+          <div class="footer-logo">
+            <span class="neon-text-red neon-small">San Remo</span>
+            <span class="f-sub">KAFANA SARAJEVO</span>
+          </div>
+          <p class="footer-about">
+            Kultna sarajevska kafana iz televizijske serije <em>„Lud, zbunjen, normalan”</em>. Mjesto okupljanja tri generacije Fazlinovića, muzičara studija Akord i probranih gostiju od 2007. godine.
+          </p>
+          <div class="footer-chips">
+            <span>🍺 Sarajevsko Pivo</span>
+            <span>🍲 Domaća Sarma</span>
+            <span>🎸 Rokenrol Petkom</span>
+          </div>
+        </div>
+
+        <!-- Col 2: Navigation Links -->
+        <div class="footer-col col-nav">
+          <h4 class="footer-heading">Navigacija</h4>
+          <ul class="footer-links">
+            <li><a href="#pocetna">Početna</a></li>
+            <li><a href="#o-kafani">Priča o Kafani</a></li>
+            <li><a href="#jelovnik">Jelovnik & Dolme</a></li>
+            <li><a href="#pica">Karta Pića & Maksuzija</a></li>
+            <li><a href="#petak">Svirka Petkom (Izet Uživo)</a></li>
+            <li><a href="#gosti">Inventar (Stalni Gosti)</a></li>
+            <li><a href="#kucni-red">Kućni Red Lokala</a></li>
+            <li><a href="#galerija">Foto Arhiva</a></li>
+            <li><a href="#kalkulator">Kafanski Ceh</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3: Credits & Developer (Specified by User) -->
+        <div class="footer-col col-author">
+          <h4 class="footer-heading">Dizajn & Produkcija</h4>
+          
+          <div class="author-card">
+            <div class="author-title">Radio: <strong>TrakoArman</strong></div>
+            <div class="author-badge">Trako Webdesigner</div>
+            <p class="author-desc">
+              Premium unikatni web dizajn, editorial estetika i moderno inženjerstvo.
+            </p>
+            <div class="author-contact">
+              <span class="wa-label">WhatsApp Kontakt:</span>
+              <a href="https://wa.me/38761248690" target="_blank" rel="noopener noreferrer" class="wa-btn-footer">
+                <span class="wa-icon-svg">💬</span>
+                <span>+387 61 248 690</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Legal Disclaimer & Parody Notice -->
+      <div class="footer-disclaimer">
+        <p>
+          <strong>PRAVNA NAPOMENA / FAN-MADE PARODIJA:</strong> Ovaj web sajt je nezavisni fan-made parodijski projekat kreiran iz ljubavi i poštovanja prema kultnoj seriji „Lud, zbunjen, normalan”. Sve fotografije, video reference i imena likova pripadaju produkcijskoj kući FIST i autorima serije. Cijene, jelovnik i narudžbe služe isključivo u zabavne i parodijske svrhe.
+        </p>
+      </div>
+
+      <!-- Footer Bottom -->
+      <div class="footer-bottom">
+        <div>&copy; 2007&ndash;2026 Kafana San Remo Sarajevo &middot; Fan-made Parody Project</div>
+        <div class="crafted-by">
+          Kreirao: <strong>Trako Webdesigner (TrakoArman)</strong> &middot; 
+          <a href="https://wa.me/38761248690" target="_blank" rel="noopener">+387 61 248 690</a>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- JAVASCRIPT -->
+  <script src="script.js"></script>
+</body>
+</html>

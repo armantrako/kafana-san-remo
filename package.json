@@ -1,0 +1,10 @@
+{
+  "name": "kafana-san-remo",
+  "version": "1.0.0",
+  "description": "Kafana San Remo Sarajevo - Kultna parodijska stranica iz serije Lud, zbunjen, normalan",
+  "private": true,
+  "scripts": {
+    "start": "npx serve .",
+    "dev": "npx serve . -l 3000"
+  }
+}
